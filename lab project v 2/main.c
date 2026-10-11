@@ -1,8 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 int main()
 {
-    printf("testing v2!\n");
+    int slot,vehicletype,minin,minout;
+    char plate[];
+    double charge;
     return 0;
 }
