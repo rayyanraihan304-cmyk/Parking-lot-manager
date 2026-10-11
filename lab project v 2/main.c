@@ -25,13 +25,14 @@ int main()
     totalmins=minout-minin;
     billedhours=(totalmins+59)/60;
     charge=billedhours*RATE_PER_HOUR;
-    printf("\n---------------------------------------------------------------\n");
+    //printf part done by Rayyan
+      printf("\n---------------------------------------------------------------\n");
 printf("\t\t\tVehicle Record\n");
       printf("---------------------------------------------------------------\n");
 
 printf("Slot no.\tPlate Number\tType\tMin in\tMin out\n");
 printf("%d\t\t%s\t\t%d\t%d\t%d\n\n",slotno,vehicleplate,vehicletype,minin,minout);
-
+     //billing and charge part done by MahimHossain
      printf("Billed Hours:%d\nCharge:%.2lf Taka",billedhours,charge);
 printf("\n---------------------------------------------------------------\n");
 
