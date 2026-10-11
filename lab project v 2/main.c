@@ -28,7 +28,8 @@ int main()
 printf("\t\t\tVehicle Record\n");
       printf("---------------------------------------------------------------\n");
 
-
+printf("Slot no.\tPlate Number\tType\tMin in\tMin out");
+printf("%d\t%s\t%d\t%d\t%d\n",slotno,vehicleplate,vehicletype,minin,minout);
 
 ("\n---------------------------------------------------------------\n")
 
