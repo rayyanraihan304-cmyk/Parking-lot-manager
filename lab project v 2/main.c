@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define RATE_PER_HOUR 30
 int main()
-{   // variable declaration,inputs,Arithmetic function part done by OviSaha
+{   // variable declaration,inputs,Arithmetic equation part done by OviSaha
     int slotno,vehicletype,minin,minout,totalmins,billedhours;
     char vehicleplate[20];
     double charge;
