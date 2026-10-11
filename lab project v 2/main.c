@@ -3,7 +3,7 @@
 int main()
 {
     int slotno,vehicletype,minin,minout,totalmins,billedhours;
-    char vehicleplate[];
+    char vehicleplate[30];
     double charge;
 
     printf("Enter Slot Number:");
