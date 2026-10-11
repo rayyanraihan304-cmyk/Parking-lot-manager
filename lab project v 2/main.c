@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#define RATE_PER_HOUR 30
 int main()
 {
     int slotno,vehicletype,minin,minout,totalmins,billedhours;
@@ -23,6 +23,7 @@ int main()
     
     totalmins=minout-minin;
     billedhours=(totalmins+59)/60;
+    charge=billedhours*RATE_PER_HOUR;
     printf("\n---------------------------------------------------------------\n");
     printf("\t\t\tVehicle Record\n");
     printf("---------------------------------------------------------------\n");
