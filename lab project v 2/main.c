@@ -2,7 +2,7 @@
 
 int main()
 {
-    int slotno,vehicletype,minin,minout;
+    int slotno,vehicletype,minin,minout,totalmins,billedhours;
     char vehicleplate[];
     double charge;
 
@@ -20,6 +20,9 @@ int main()
 
     printf("Enter exit minute: ");
     scanf("%d",&minout);
+    
+    totalmins=minout-minin;
+    billedhours=(totalmins+59)/60;
 
     return 0;
 }
