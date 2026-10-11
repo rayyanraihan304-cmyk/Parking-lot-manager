@@ -1,8 +1,8 @@
 #include <stdio.h>
+#define RATE_PER_HOUR 30
 
-#define RATE_PER_HOUR 30
 int main()
-{   // variable declaration,inputs,Arithmetic equation part done by OviSaha
+{   // variable declaration and inputs part done by OviSaha
     int slotno,vehicletype,minin,minout,totalmins,billedhours;
     char vehicleplate[20];
     double charge;
@@ -21,7 +21,7 @@ int main()
 
     printf("Enter exit minute: ");
     scanf("%d",&minout);
-    
+    //Arithmetic equation part done by MahiShad
     totalmins=minout-minin;
     billedhours=(totalmins+59)/60;
     charge=billedhours*RATE_PER_HOUR;
