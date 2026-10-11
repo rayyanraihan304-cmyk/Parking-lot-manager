@@ -23,6 +23,9 @@ int main()
     
     totalmins=minout-minin;
     billedhours=(totalmins+59)/60;
+    printf("\n---------------------------------------------------------------\n");
+    printf("\t\t\tVehicle Record\n");
+    printf("---------------------------------------------------------------\n");
 
     return 0;
 }
