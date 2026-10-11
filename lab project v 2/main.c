@@ -1,8 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 
 int main()
 {
-    printf("testing v2!\n");
+    int slotno,vehicletype,minin,minout;
+    char vehicleplate[];
+    double charge;
+
+
     return 0;
 }
