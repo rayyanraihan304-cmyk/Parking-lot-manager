@@ -25,7 +25,7 @@ int main()
     printf("\n--------------------------------------------------------------------------------------");
     printf("\n\t\t\t\tVehicle Records\n");
     printf("--------------------------------------------------------------------------------------");
-    printf("\n\n\Slot No\ |     Plate Number\t|  Type |   Min In\t| Min Out\t| Charge(Tk)");
+    printf("\n\nSlot No |     Plate Number\t|  Type |   Min In\t| Min Out\t| Charge(Tk)");
     printf("\n--------------------------------------------------------------------------------------");
     printf("\n 101\t| Dhaka-GA-1122\t\t|   1\t|    45\t\t|   105\t\t| 60.00");
     printf("\n 102\t| Dhaka-KHA-9988\t|   2\t|    120\t|   180\t\t| 30.00");
