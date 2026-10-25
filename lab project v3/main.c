@@ -47,7 +47,7 @@ void read_p(void)
 double calculate_charges(int minin,int minout)
 {
     totalmins = minout - minin;
-    billedhours=(totalmins+59)/60;
+    billedhours = (int)ceil(totalmins / 60.0);
     charge = billedhours * RATE_PER_HOUR;
 
     return charge;
