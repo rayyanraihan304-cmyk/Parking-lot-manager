@@ -9,10 +9,9 @@ double calculate_charges(void);
 
 
     int slotno,vehicletype,minin,minout,totalmins,billedhours;
-    char c1,c2,c3,c4,c5;
+    char c1,c2,c3,c4,c5,sig1,sig2,sig3,num1,num2,num3,num4;
     double charge;
-    char sig1,sig2,sig3;
-    char num1,num2,num3,num4;
+    
 void header_p(void)
 {
     printf("\t\t\t==================================");
