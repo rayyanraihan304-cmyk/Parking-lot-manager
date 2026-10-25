@@ -44,7 +44,7 @@ void read_p(void)
     printf("Enter exit minute: ");
     scanf("%d",&minout);
 }
-double calculate_charges(void)
+double calculate_charges(int minin,int minout)
 {
     totalmins = minout - minin;
     billedhours = (int)ceil(totalmins / 60.0);
@@ -52,7 +52,7 @@ double calculate_charges(void)
 
     return charge;
 }
-void body_p(void)
+void body_p(double charge)
 {
     printf("\n---------------------------------------------------------------\n");
 printf("\t\t\tVehicle Record\n");
@@ -70,7 +70,6 @@ int main()
     header_p();
     menu_p();
     read_p();
-    charge = calculate_charges();
-    body_p();
+    body_p(calculate_charges(minin,minout));
     return 0;
 }
