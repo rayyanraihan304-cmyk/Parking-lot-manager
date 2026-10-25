@@ -8,7 +8,7 @@
     char c1,c2,c3,c4,c5,sig1,sig2,sig3,num1,num2,num3,num4;
     double charge;
     
-void header_p();
+void header_p(void);
 
 void header_p(void)
 {
