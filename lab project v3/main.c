@@ -2,7 +2,8 @@
 #include <math.h>
 #define RATE_PER_HOUR 30
 
-
+// function defination and called part done by OviSaha2005
+// global variables and Arithmetic part done by rayhan
 
     int slotno,vehicletype,minin,minout,totalmins,billedhours;
     char c1,c2,c3,c4,c5,sig1,sig2,sig3,num1,num2,num3,num4;
