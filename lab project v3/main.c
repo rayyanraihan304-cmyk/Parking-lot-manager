@@ -2,14 +2,14 @@
 #include <math.h>
 #define RATE_PER_HOUR 30
 
-
+
+
     int slotno,vehicletype,minin,minout,totalmins,billedhours;
     char c1,c2,c3,c4,c5,sig1,sig2,sig3,num1,num2,num3,num4;
     double charge;
     
 void header_p();
-double calculate_charges();
-
+
 void header_p(void)
 {
     printf("\t\t\t==================================");
