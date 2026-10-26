@@ -36,7 +36,7 @@ void read_p(void)
     printf("Enter Vehicle Plate(Format:DHAKA XYZ 1234): ");
     scanf(" %c%c%c%c%c %c%c%c %c%c%c%c" , &c1,&c2,&c3,&c4,&c5,&sig1,&sig2,&sig3,&num1,&num2,&num3,&num4);
 
-    printf("Enter vehicle type: ");
+    printf("Enter vehicle type(1 for car,2 for bike): ");
     scanf(" %d",&vehicletype);
 
     printf("Enter entry minute: ");
