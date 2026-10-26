@@ -60,17 +60,9 @@ printf("\t\t\tVehicle Record\n");
       printf("---------------------------------------------------------------\n");
 
 
-printf("%-10s %-15s %-6s %-10s %-10s\n",
-       "Slot No.", "Plate Number", "Type", "Min In", "Min Out");
 
-printf("%-10d ", slotno);
-printf("%c%c%c%c%c-%c%c%c-%c%c%c%c",
-       c1, c2, c3, c4, c5,
-       sig1, sig2, sig3,
-       num1, num2, num3, num4);
-printf(" %-6d %-10d %-10d\n",
-       vehicletype, minin, minout);
-
+printf("Slot no.\tPlate Number\tType\tMin in\tMin out\n");
+printf("%d\t\t%c%c%c%c%c-%c%c%c-%c%c%c%c\t%d\t%d\t%d\n\n",slotno,c1,c2,c3,c4,c5,sig1,sig2,sig3,num1,num2,num3,num4,vehicletype,minin,minout);
      //billing and charge part done by MahimHossain
      printf("Billed Hours:%d\nCharge:%.2f Taka",billedhours,charge);
 printf("\n---------------------------------------------------------------\n");
