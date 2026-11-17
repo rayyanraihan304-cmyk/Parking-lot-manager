@@ -2,8 +2,8 @@
 #include <math.h>
 #define RATE_PER_HOUR 30
 
-// function defination, called part and global variables  done by OviSaha2005
-// While loop and switch part done by rayhan
+// function defination, called part, while loop validation and global variables  done by OviSaha2005
+// DO While loop and switch part done by rayhan
 // Header menu and display part done by mahi shad
 //billing and charge part done by MahimHossain
     int slotno,vehicletype,minin,minout,totalmins,billedhours;
