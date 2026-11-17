@@ -2,7 +2,7 @@
 #include <math.h>
 #define RATE_PER_HOUR 30
 
-// function defination, called part and global variables  done by OviSaha2005
+// do while, function defination, called part and global variables  done by OviSaha2005
 // While loop and switch part done by rayhan
 // Header menu and display part done by mahi shad
 //billing and charge part done by MahimHossain
